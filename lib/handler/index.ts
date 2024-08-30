@@ -14,6 +14,8 @@ import wrap from '../global/client/methods/wrap';
 
   init(self, null), wrap(self);
 
+  // @ts-ignore
+  __dynamic.client.eval(self);
   __dynamic.client.message(self);
   __dynamic.client.location(self, false);
   __dynamic.client.window(self);
