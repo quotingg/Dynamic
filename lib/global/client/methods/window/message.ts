@@ -68,7 +68,6 @@ export default function message(self: Window | any) {
           value: event.data[1],
           writable: false,
         }); else self.__dynamic.define(cloned, 'origin', {
-          value: event.origin,
           writable: false,
         });
       }
