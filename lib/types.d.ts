@@ -1,5 +1,5 @@
 declare module '@dynamic-pkg/bare-client';
-declare module '@dynamic-pkg/acorn';
+declare module 'meriyah';
 declare module '@dynamic-pkg/astring';
 declare module '@dynamic-pkg/cookie';
 declare module '@dynamic-pkg/mime';
